@@ -6360,7 +6360,7 @@ let BattleFormatsData = {
 	},
 	aromatisse: {
 		randomBattleMoves: ["aromatherapy", "lightscreen", "moonblast", "nastyplot", "reflect", "thunderbolt", "trickroom"],
-		randomDoubleBattleMoves: ["healpulse", "lightscreen", "moonblast", "protect", "reflect" "thunderbolt", "trickroom", "wish"],
+		randomDoubleBattleMoves: ["healpulse", "lightscreen", "moonblast", "protect", "reflect", "thunderbolt", "trickroom", "wish"],
 		eventPokemon: [
 			{"generation": 6, "level": 50, "nature": "Relaxed", "isHidden": true, "moves": ["trickroom", "healpulse", "disable", "moonblast"], "pokeball": "cherishball"},
 		],
