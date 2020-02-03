@@ -733,7 +733,7 @@ let BattleFormatsData = {
 	},
 	bellossom: {
 		randomBattleMoves: ["gigadrain", "moonblast", "quiverdance", "sleeppowder", "strengthsap"],
-		randomDoubleBattleMoves: ["gigadrain", "moonblast", "protect", "sleeppowder", "sludgebomb" "strengthsap", "sunnyday"],
+		randomDoubleBattleMoves: ["gigadrain", "moonblast", "protect", "sleeppowder", "sludgebomb", "strengthsap", "sunnyday"],
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
