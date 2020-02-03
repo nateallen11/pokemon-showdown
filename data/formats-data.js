@@ -733,6 +733,7 @@ let BattleFormatsData = {
 	},
 	bellossom: {
 		randomBattleMoves: ["gigadrain", "moonblast", "quiverdance", "sleeppowder", "strengthsap"],
+		randomDoubleBattleMoves: ["gigadrain", "moonblast", "protect", "sleeppowder", "sludgebomb" "strengthsap", "sunnyday"],
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
@@ -5362,12 +5363,14 @@ let BattleFormatsData = {
 	},
 	basculin: {
 		randomBattleMoves: ["aquajet", "crunch", "headsmash", "liquidation", "psychicfangs"],
+		randomDoubleBattleMoves: ["aquajet", "crunch", "headsmash", "liquidation", "psychicfangs", "superpower"],
 		unreleasedHidden: "Past",
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	basculinbluestriped: {
 		randomBattleMoves: ["aquajet", "crunch", "headsmash", "liquidation", "psychicfangs"],
+		randomDoubleBattleMoves: ["aquajet", "crunch", "headsmash", "liquidation", "psychicfangs", "superpower"],
 		unreleasedHidden: "Past",
 		tier: "NU",
 		doublesTier: "(DUU)",
@@ -5709,6 +5712,7 @@ let BattleFormatsData = {
 	},
 	beheeyem: {
 		randomBattleMoves: ["nastyplot", "psychic", "shadowball", "thunderbolt", "trick", "trickroom"],
+		randomDoubleBattleMoves: ["allyswitch", "nastyplot", "protect", "psychic", "shadowball", "thunderbolt", "trickroom"],
 		unreleasedHidden: "Past",
 		tier: "NU",
 		doublesTier: "(DUU)",
@@ -5761,6 +5765,7 @@ let BattleFormatsData = {
 	},
 	beartic: {
 		randomBattleMoves: ["iciclecrash", "liquidation", "raindance", "superpower", "throatchop"],
+		randomDoubleBattleMoves: ["aquajet", "iciclecrash", "protect", "stoneedge", "superpower", "swordsdance", "throatchop"],
 		encounters: [
 			{"generation": 6, "level": 30},
 		],
@@ -6355,6 +6360,7 @@ let BattleFormatsData = {
 	},
 	aromatisse: {
 		randomBattleMoves: ["aromatherapy", "lightscreen", "moonblast", "nastyplot", "reflect", "thunderbolt", "trickroom"],
+		randomDoubleBattleMoves: ["healpulse", "lightscreen", "moonblast", "protect", "reflect" "thunderbolt", "trickroom", "wish"],
 		eventPokemon: [
 			{"generation": 6, "level": 50, "nature": "Relaxed", "isHidden": true, "moves": ["trickroom", "healpulse", "disable", "moonblast"], "pokeball": "cherishball"},
 		],
@@ -6389,6 +6395,7 @@ let BattleFormatsData = {
 	},
 	barbaracle: {
 		randomBattleMoves: ["crosschop", "earthquake", "liquidation", "shellsmash", "stoneedge"],
+		randomDoubleBattleMoves: ["crosschop", "earthquake", "liquidation", "protect", "rockslide", "shellsmash"],
 		encounters: [
 			{"generation": 6, "level": 30},
 		],
@@ -6535,6 +6542,7 @@ let BattleFormatsData = {
 	},
 	avalugg: {
 		randomBattleMoves: ["avalanche", "bodypress", "curse", "rapidspin", "recover"],
+		randomDoubleBattleMoves: ["avalanche", "bodypress", "curse", "earthquake", "protect", "recover"],
 		unreleasedHidden: "Past",
 		tier: "UU",
 		doublesTier: "(DUU)",
@@ -6909,6 +6917,7 @@ let BattleFormatsData = {
 	},
 	bewear: {
 		randomBattleMoves: ["closecombat", "darkestlariat", "doubleedge", "icepunch", "swordsdance"],
+		randomDoubleBattleMoves: ["closecombat", "darkestlariat", "doubleedge", "drainpunch", "highhorsepower", "icepunch", "wideguard"],
 		eventPokemon: [
 			{"generation": 7, "level": 50, "gender": "F", "isHidden": true, "moves": ["babydolleyes", "brutalswing", "superpower", "bind"], "pokeball": "cherishball"},
 		],
@@ -7637,6 +7646,7 @@ let BattleFormatsData = {
 	},
 	barraskewda: {
 		randomBattleMoves: ["closecombat", "crunch", "drillrun", "liquidation", "poisonjab"],
+		randomDoubleBattleMoves: ["closecombat", "crunch", "drillrun", "liquidation", "poisonjab", "psychicfangs"],
 		tier: "UU",
 		doublesTier: "DUU",
 	},
