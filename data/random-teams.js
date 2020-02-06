@@ -1226,7 +1226,7 @@ class RandomTeams {
 			item = 'Chople Berry';
 		} else if (this.dex.getEffectiveness('Rock', template) >= 2 || hasMove['courtchange'] || ['Drizzle', 'Overcoat', 'Screen Cleaner', 'Sturdy'].includes(ability) && (hasMove['defog'] || hasMove['rapidspin'])) {
 			item = 'Heavy-Duty Boots';
-		} else if (hasMove['clearsmog'] || hasMove['coil'] || hasMove['curse'] || hasMove['protect'] || hasMove['sleeptalk']) {
+		} else if (hasMove['clearsmog'] || hasMove['coil'] || hasMove['curse'] || (hasMove['protect'] && !isDoubles) || hasMove['sleeptalk']) {
 			item = 'Leftovers';
 		} else if (hasMove['substitute']) {
 			item = counter.damagingMoves.length > 2 && !!counter['drain'] ? 'Life Orb' : 'Leftovers';
