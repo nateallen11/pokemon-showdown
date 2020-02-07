@@ -2802,6 +2802,7 @@ let BattleFormatsData = {
 	},
 	corsolagalar: {
 		randomBattleMoves: ["nightshade", "stealthrock", "strengthsap", "willowisp"],
+		randomDoubleBattleMoves: ["haze", "lightscreen", "nightshade", "reflect", "strengthsap", "whirlpool", "willowisp"],
 		tier: "UU",
 		doublesTier: "LC Uber",
 	},
